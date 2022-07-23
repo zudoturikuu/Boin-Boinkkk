@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var emojiSets = [
+    EmojiSet (emojis: ["🐓", "🐥", "🐣", "🐤"], name: "Chickens")
+    
+    EmojiSet (emojis: ["🍓", "🍉", "🍇"], name: "Fruits")
+    
+    ]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
     }
 }
 
