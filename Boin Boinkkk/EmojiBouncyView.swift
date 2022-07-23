@@ -7,6 +7,10 @@
 
 import UIKit
 
+enum CollideWhat {
+    case emoji, wall
+}
+
 class EmojiBouncyView: UIView, UICollisionBehaviorDelegate {
  var animator: UIDynamicAnimator!
  var collisions: UICollisionBehavior!
@@ -48,7 +52,7 @@ func insert(emoji: String) {
  label.backgroundColor = .systemGray5
  label.layer.cornerRadius = 16
  label.clipsToBounds = true
-label.textAlignment = .center
+ label.textAlignment = .center
  self.addSubview(label)
 
  collisions.addItem(label)
@@ -68,16 +72,3 @@ label.textAlignment = .center
  self.collisions.removeItem(label)
  }
  }
-
-func collisionBehavior(_ behavior: UICollisionBehavior,
- beganContactFor item1: UIDynamicItem,
- with item2: UIDynamicItem, at p: CGPoint) {
-
- }
-
- func collisionBehavior(_ behavior: UICollisionBehavior,
- endedContactFor item: UIDynamicItem,
- withBoundaryIdentifier identifier: NSCopying?) {
-
- }
-
