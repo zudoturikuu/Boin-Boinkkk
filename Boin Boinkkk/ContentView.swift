@@ -24,7 +24,7 @@ struct ContentView: View {
          Text(emojiSet.emojis.joined())
          }
          }
-    }
+        } .navigationTitle("BIG RED CHICKEN PARTY")
 }
 
 struct ContentView_Previews: PreviewProvider {
