@@ -31,6 +31,8 @@ class EmojiBouncyView: UIView, UICollisionBehaviorDelegate {
  fatalError("init(coder:) has not been implemented")
  }
 }
+
+
 func insert(emoji: String) {
  let labelWidth = 80.0
 
@@ -46,7 +48,7 @@ func insert(emoji: String) {
  label.backgroundColor = .systemGray5
  label.layer.cornerRadius = 16
  label.clipsToBounds = true
- label.textAlignment = .center
+label.textAlignment = .center
  self.addSubview(label)
 
  collisions.addItem(label)
@@ -66,7 +68,7 @@ func insert(emoji: String) {
  self.collisions.removeItem(label)
  }
  }
-}
+
 func collisionBehavior(_ behavior: UICollisionBehavior,
  beganContactFor item1: UIDynamicItem,
  with item2: UIDynamicItem, at p: CGPoint) {
@@ -78,4 +80,4 @@ func collisionBehavior(_ behavior: UICollisionBehavior,
  withBoundaryIdentifier identifier: NSCopying?) {
 
  }
-}
+
