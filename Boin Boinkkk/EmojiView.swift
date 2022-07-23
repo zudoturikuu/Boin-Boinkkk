@@ -25,7 +25,7 @@ struct EmojiView: View {
                 }
                 
             }
-            BouncyView(emojis: selectedEmojis) {
+            BouncyView(emojis: $selectedEmojis) {
                 surface in switch surface {
                 case.emoji:
                     print("Crashed into another emoji")
