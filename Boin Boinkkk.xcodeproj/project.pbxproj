@@ -15,6 +15,7 @@
 		0572FB04288B907800187582 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FB03288B907800187582 /* EmojiView.swift */; };
 		0572FB06288B9C6300187582 /* CollisionSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FB05288B9C6300187582 /* CollisionSurface.swift */; };
 		0572FB08288B9D2900187582 /* BouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FB07288B9D2900187582 /* BouncyView.swift */; };
+		0572FB0B288BA37300187582 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 0572FB0A288BA37300187582 /* Subsonic */; };
 		C23346DA288B937D002568FF /* EmojiBouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23346D9288B937D002568FF /* EmojiBouncyView.swift */; };
 		D95B567F288B96B100732392 /* zeruiplease.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D95B567D288B96B100732392 /* zeruiplease.mp3 */; };
 		D95B5680288B96B100732392 /* ya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D95B567E288B96B100732392 /* ya.mp3 */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0572FB0B288BA37300187582 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +106,9 @@
 			dependencies = (
 			);
 			name = "Boin Boinkkk";
+			packageProductDependencies = (
+				0572FB0A288BA37300187582 /* Subsonic */,
+			);
 			productName = "Boin Boinkkk";
 			productReference = 0572FAF0288B8AFE00187582 /* Boin Boinkkk.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 0572FAE7288B8AFE00187582;
+			packageReferences = (
+				0572FB09288BA37300187582 /* XCRemoteSwiftPackageReference "subsonic" */,
+			);
 			productRefGroup = 0572FAF1288B8AFE00187582 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -367,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0572FB09288BA37300187582 /* XCRemoteSwiftPackageReference "subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0572FB0A288BA37300187582 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0572FB09288BA37300187582 /* XCRemoteSwiftPackageReference "subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0572FAE8288B8AFE00187582 /* Project object */;
 }

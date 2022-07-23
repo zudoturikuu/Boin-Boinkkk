@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Subsonic
 
 struct EmojiView: View {
     
@@ -28,9 +29,9 @@ struct EmojiView: View {
             BouncyView(emojis: $selectedEmojis) {
                 surface in switch surface {
                 case.emoji:
-                    print("Crashed into another emoji")
+                    play(sound: "ya")
                 case .wall:
-                print("Crashed into wall")
+                    play(sound:"zeruiplease")
                 }
             }
         }
