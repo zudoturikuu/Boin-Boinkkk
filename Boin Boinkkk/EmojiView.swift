@@ -29,10 +29,9 @@ struct EmojiView: View {
             BouncyView(emojis: $selectedEmojis) {
                 surface in switch surface {
                 case.emoji:
-                    play(sound: "ya.mp3")
+                    play(sound: "/Users/zudoturiku/Documents/Downloads/ya.mp3")
                 case .wall:
-                    play(sound:"zeruiplease.mp3")
-                }
+                    play(sound:"/Users/zudoturiku/Documents/Downloads/zeruiplease.mp3")                }
             }
         }
     }
