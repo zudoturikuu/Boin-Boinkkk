@@ -13,6 +13,7 @@
 		0572FAFB288B8B0000187582 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0572FAFA288B8B0000187582 /* Preview Assets.xcassets */; };
 		0572FB02288B8C1700187582 /* EmojiSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FB01288B8C1700187582 /* EmojiSet.swift */; };
 		0572FB04288B907800187582 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FB03288B907800187582 /* EmojiView.swift */; };
+		C23346DA288B937D002568FF /* EmojiBouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23346D9288B937D002568FF /* EmojiBouncyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0572FAFA288B8B0000187582 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0572FB01288B8C1700187582 /* EmojiSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSet.swift; sourceTree = "<group>"; };
 		0572FB03288B907800187582 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		C23346D9288B937D002568FF /* EmojiBouncyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBouncyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				0572FAF3288B8AFE00187582 /* Boin_BoinkkkApp.swift */,
 				0572FAF5288B8AFE00187582 /* ContentView.swift */,
 				0572FB01288B8C1700187582 /* EmojiSet.swift */,
+				C23346D9288B937D002568FF /* EmojiBouncyView.swift */,
 				0572FB03288B907800187582 /* EmojiView.swift */,
 				0572FAF7288B8B0000187582 /* Assets.xcassets */,
 				0572FAF9288B8B0000187582 /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23346DA288B937D002568FF /* EmojiBouncyView.swift in Sources */,
 				0572FB02288B8C1700187582 /* EmojiSet.swift in Sources */,
 				0572FB04288B907800187582 /* EmojiView.swift in Sources */,
 				0572FAF6288B8AFE00187582 /* ContentView.swift in Sources */,
