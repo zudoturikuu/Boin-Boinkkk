@@ -14,6 +14,8 @@
 		0572FB02288B8C1700187582 /* EmojiSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FB01288B8C1700187582 /* EmojiSet.swift */; };
 		0572FB04288B907800187582 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FB03288B907800187582 /* EmojiView.swift */; };
 		C23346DA288B937D002568FF /* EmojiBouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23346D9288B937D002568FF /* EmojiBouncyView.swift */; };
+		D95B567F288B96B100732392 /* zeruiplease.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D95B567D288B96B100732392 /* zeruiplease.mp3 */; };
+		D95B5680288B96B100732392 /* ya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D95B567E288B96B100732392 /* ya.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		0572FB01288B8C1700187582 /* EmojiSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSet.swift; sourceTree = "<group>"; };
 		0572FB03288B907800187582 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 		C23346D9288B937D002568FF /* EmojiBouncyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBouncyView.swift; sourceTree = "<group>"; };
+		D95B567D288B96B100732392 /* zeruiplease.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zeruiplease.mp3; path = ../../../Downloads/zeruiplease.mp3; sourceTree = "<group>"; };
+		D95B567E288B96B100732392 /* ya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ya.mp3; path = ../../../Downloads/ya.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C23346D9288B937D002568FF /* EmojiBouncyView.swift */,
 				0572FB03288B907800187582 /* EmojiView.swift */,
 				0572FAF7288B8B0000187582 /* Assets.xcassets */,
+				D95B567E288B96B100732392 /* ya.mp3 */,
+				D95B567D288B96B100732392 /* zeruiplease.mp3 */,
 				0572FAF9288B8B0000187582 /* Preview Content */,
 			);
 			path = "Boin Boinkkk";
@@ -134,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95B567F288B96B100732392 /* zeruiplease.mp3 in Resources */,
 				0572FAFB288B8B0000187582 /* Preview Assets.xcassets in Resources */,
+				D95B5680288B96B100732392 /* ya.mp3 in Resources */,
 				0572FAF8288B8B0000187582 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
