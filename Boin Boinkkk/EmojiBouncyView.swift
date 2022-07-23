@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EmojiBouncyView: UIView, UICollisionBehaviourDelegate {
+class EmojiBouncyView: UIView, UICollisionBehaviorDelegate {
  var animator: UIDynamicAnimator!
  var collisions: UICollisionBehavior!
  var dynamics: UIDynamicItemBehavior!

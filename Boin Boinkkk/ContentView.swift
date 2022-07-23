@@ -18,11 +18,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
         List(emojiSets) { emojiSet in
+            NavigationLink {
+                EmojiView(emojiSet: emojiSet)
+            } label: {
          VStack(alignment: .leading) {
          Text(emojiSet.name)
          .font(.headline)
          Text(emojiSet.emojis.joined())
          }
+            }
          }
         } .navigationTitle("BIG RED CHICKEN PARTY")
 }
